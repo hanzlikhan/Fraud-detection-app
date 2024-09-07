@@ -1,0 +1,50 @@
+# Python-related
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+*.manifest
+*.spec
+*.dll
+*.dylib
+*.exe
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# FastAPI specific
+*.log
+*.sqlite3
+*.db
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+*.cover
+.hypothesis/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# dotenv environment variables
+.env
+
+# Cache files
+pip-log.txt
+pip-delete-this-directory.txt
